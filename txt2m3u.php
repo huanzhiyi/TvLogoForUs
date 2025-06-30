@@ -68,7 +68,7 @@ foreach ($lines as $line) {
                 }
             }
 
-            $logo = "https://github.com/huanzhiyi/TvLogoForUs/img/" . str_replace(' ', '', $logoName) . ".png";
+            $logo = "https://raw.githubusercontent.com/huanzhiyi/TvLogoForUs/refs/heads/main/img/" . str_replace(' ', '', $logoName) . ".png";
             $catchup = (stripos($url, '/PLTV/') !== false || stripos($url, '/TVOD/') !== false) ?
                 ' catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"' : '';
 

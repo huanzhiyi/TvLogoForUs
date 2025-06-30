@@ -1,0 +1,3 @@
+广东,#genre#
+广东珠江高清,http://abc/gdzj/stream.m3u8
+广东体育高清,http://abc/gdty/stream.m3u8
